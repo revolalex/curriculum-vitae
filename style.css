@@ -1,0 +1,310 @@
+* {
+  margin: 0em;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0em;
+}
+body {
+  background-color: #173753;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 50vh;
+  order: 1;
+  flex-grow: 1.5;
+  text-align: center;
+  color: white;
+  width: 30%;
+}
+.central {
+  width: 40%;
+  margin-top: 40vh;
+  order: 2;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #1d70a2;
+}
+.right {
+  width: 30%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 50vh;
+  order: 3;
+  flex-grow: 1.5;
+  text-align: center;
+  color: white;
+}
+
+/* LEFT PART */
+.exp {
+  border-top: dotted 0.1px white;
+}
+
+.left h3,
+.right h3 {
+  color: #65c3fd;
+  padding-top: 1.5vh;
+}
+.left p,
+.right p {
+  padding-bottom: 1.5vh;
+}
+
+/* CENTRAL PART */
+.inside-central {
+  padding-right: 1.5vw;
+  padding-left: 1.5vw;
+}
+.name {
+  padding-top: 15vh;
+}
+.photo {
+  position: absolute;
+  width: 23%;
+  left: 39%;
+  top: 22%;
+  clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+}
+.presentation {
+  padding-top: 1vh;
+}
+.comp h2 {
+  padding-top: 1.5vh;
+  margin-top: 1.5vh;
+  border-top: dotted 2px #0a3855;
+}
+
+/* RIGHT PART */
+.desc {
+  color: #65c3fd;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #1d70a2;
+}
+.footer {
+  display: flex;
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex-direction: column;
+}
+
+.footer h3 {
+  color: #0a3855;
+}
+.competence {
+  text-align: center;
+  color: #0a3855;
+}
+
+
+.logo-part a {
+  justify-content: space-around;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+
+/* LOGO PART AT TOP OF THE PAGE */
+.logo {
+  animation-iteration-count: infinite;
+}
+
+#node {
+  position: absolute;
+  left: 48%;
+  top: 5%;
+  animation-name: twinkle-2;
+  animation-duration: 1.5s;
+}
+
+/* GIT vs JAVASCRIPT*/
+#javascript {
+  position: absolute;
+  right: 33%;
+  top: 3%;
+  animation-name: twinkle-1;
+  animation-duration: 2.7s;
+}
+#github {
+  position: absolute;
+  left: 33%;
+  top: 3%;
+  animation-name: twinkle-3;
+  animation-duration: 1.7s;
+}
+
+/* PLANGEE vs PALMES*/
+#plongee {
+  position: absolute;
+  left: 40%;
+  top: 17%;
+  animation-name: twinkle-3;
+  animation-duration: 3.5s;
+}
+
+#palmes {
+  position: absolute;
+  right: 40%;
+  top: 17%;
+  animation-name: twinkle-1;
+  animation-duration: 2.5s;
+}
+
+/* API vs RESOUDRE*/
+#api {
+  position: absolute;
+  left: 20%;
+  top: 7%;
+  animation-name: twinkle-1;
+  animation-duration: 1.7s;
+}
+#resoudre {
+  position: absolute;
+  right: 20%;
+  top: 7%;
+  animation-name: twinkle-2;
+  animation-duration: 2.5s;
+}
+
+/* Groupe vs WEB*/
+#groupe {
+  position: absolute;
+  top: 14%;
+  left: 9%;
+  animation-name: twinkle-2;
+  animation-duration: 2.2s;
+}
+#web {
+  position: absolute;
+  top: 14%;
+  right: 9%;
+  animation-name: twinkle-3;
+  animation-duration: 1.2s;
+}
+
+/* MOBILE vs BOOTSTRAP*/
+#mobile {
+  position: absolute;
+  top: 30%;
+  animation-name: twinkle-1;
+  animation-duration: 3s;
+}
+#bootstrap {
+  position: absolute;
+  top: 30%;
+  animation-name: twinkle-3;
+  animation-duration: 1.8s;
+}
+
+/* HTML vs RIGHT*/
+#html {
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  animation-name: twinkle-1;
+  animation-duration: 2.3s;
+}
+#mac {
+  position: absolute;
+  top: 20%;
+  right: 27%;
+  animation-name: twinkle-3;
+  animation-duration: 3.2s;
+}
+
+@keyframes twinkle-1 {
+  50% {
+    transform: scale(0.5);
+    opacity: 0.1;
+  }
+}
+
+@keyframes twinkle-2 {
+  20% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}
+@keyframes twinkle-3 {
+  40% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width: 600) {
+  main {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .left {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .central {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .right {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200) {
+  .photo {
+    position: absolute;
+    width: 23%;
+    left: 39%;
+    top: 22%;
+    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400) {
+  .photo {
+    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+    position: absolute;
+    width: 23%;
+    left: 39%;
+    top: 20%;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600) {
+  .photo {
+    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 18%;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .photo {
+    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 18%;
+  }
+}
