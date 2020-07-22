@@ -111,7 +111,6 @@ footer {
   color: #0a3855;
 }
 
-
 .logo-part a {
   justify-content: space-around;
   margin-right: 1vw;
@@ -210,7 +209,7 @@ footer {
   animation-duration: 1.8s;
 }
 
-/* HTML vs RIGHT*/
+/* HTML vs MAC */
 #html {
   position: absolute;
   top: 20%;
@@ -246,27 +245,84 @@ footer {
   }
 }
 
-
-
 /* MEDIA QUERY*/
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   main {
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
   }
   .left {
-    flex-wrap: wrap;
+    padding-top: 50vh;
     width: 100%;
+    padding-bottom: 1vh;
   }
   .central {
-    flex-wrap: wrap;
-    width: 100%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
   }
   .right {
-    flex-wrap: wrap;
+    padding-top: 5vh;
     width: 100%;
   }
+  .photo {
+    top: 30%;
+    width: 30%;
+    left: 35%;
+  }
+  #github {
+    top: 5%;
+    left: 5%;
+  }
+  #javascript {
+    top: 5%;
+    right: 5%;
+  }
+  #plongee {
+    left: 30%;
+    top: 24%;
+  }
+  #palmes {
+    top: 23%;
+    right: 30%;
+  }
+  #groupe {
+    top: 30%;
+  }
+  #web {
+    top: 30%;
+  }
+  #mobile {
+    top: 40%;
+    right: 20%;
+  }
+  #bootstrap {
+    top: 40%;
+    left: 20%;
+  }
+  #html {
+    top: 14%;
+    left: 15%;
+  }
+  #mac {
+    top: 14%;
+    right: 15%;
+  }
+  #node{
+    top: 8%;
+    left: 43%;
+
+  }
+  #resoudre{
+    display: none;
+  }
+  #api{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 801px) and (max-width: 1200) {
