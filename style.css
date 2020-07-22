@@ -252,17 +252,29 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .name{
+    padding-top: 5vh;
+  }
+  .footer{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+    padding-top: 5Vh;
+  }
+  .comp{
+    padding-bottom: 5vh;
+  }
   .left {
     padding-top: 50vh;
     width: 100%;
     padding-bottom: 1vh;
   }
   .central {
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 1vh;
-    padding-top: 1vh;
+    margin-top: 5vh;
   }
   .right {
     padding-top: 5vh;
@@ -270,7 +282,7 @@ footer {
   }
   .photo {
     top: 30%;
-    width: 30%;
+    width: 35%;
     left: 35%;
   }
   #github {
@@ -297,7 +309,7 @@ footer {
   }
   #mobile {
     top: 40%;
-    right: 20%;
+    right: 16%;
   }
   #bootstrap {
     top: 40%;
@@ -321,6 +333,10 @@ footer {
   }
   #api{
     display: none;
+  }
+  .comp h2{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
   }
 
 }
