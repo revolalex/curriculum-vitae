@@ -103,9 +103,36 @@ footer {
   flex-direction: column;
 }
 
+.porto{
+  display: flex;
+}
+
+.portofolio{
+  background-color: #1d70a2;
+  color: white;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.portofolio a img{
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 180px;
+}
+
+
 .footer h3 {
   color: #0a3855;
 }
+
 .competence {
   text-align: center;
   color: #0a3855;
