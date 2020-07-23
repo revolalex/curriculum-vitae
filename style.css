@@ -45,6 +45,8 @@ main {
 /* LEFT PART */
 .exp {
   border-top: dotted 0.1px white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .left h3,
@@ -64,6 +66,7 @@ main {
 }
 .name {
   padding-top: 15vh;
+  color: #173753;;
 }
 .photo {
   position: absolute;
@@ -76,9 +79,16 @@ main {
   padding-top: 1vh;
 }
 .comp h2 {
-  padding-top: 1.5vh;
-  margin-top: 1.5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  margin-top: 2.5vh;
   border-top: dotted 2px #0a3855;
+  color: #173753;
+}
+.comp h1{
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+  color: #173753;
 }
 
 /* RIGHT PART */
@@ -102,6 +112,7 @@ footer {
   padding-right: 10vw;
   flex-direction: column;
 }
+
 
 .porto{
   display: flex;
@@ -133,7 +144,7 @@ footer {
   color: #0a3855;
 }
 
-.competence {
+.contact {
   text-align: center;
   color: #0a3855;
 }
@@ -309,9 +320,9 @@ footer {
     width: 100%;
   }
   .photo {
-    top: 28%;
+    top: 24%;
     width: 35%;
-    left: 35%;
+    left: 33%;
   }
   #github {
     top: 5%;
@@ -322,12 +333,12 @@ footer {
     right: 5%;
   }
   #plongee {
-    left: 30%;
-    top: 24%;
+    left: 33%;
+    top: 20%;
   }
   #palmes {
-    top: 23%;
-    right: 30%;
+    top: 20%;
+    right: 31%;
   }
   #groupe {
     top: 30%;

@@ -1,16 +1,15 @@
 /* Responsive placing of the boxes*/
-.rea{
-    color: white;
-    text-align: center;
-    background-color: #1d70a2;
-    margin-bottom: 5%;
-
+.rea {
+  color: #0a3855;
+  text-align: center;
+  background-color: #1d70a2;
+  margin-bottom: 5%;
 }
 .container {
   padding: 5% 5% 5% 5%;
   background: #1d70a2;
   padding-bottom: 5vh;
-  margin: 5% 10% 5% 10%;
+  margin: 5% 10% 0% 10%;
 }
 
 .container:after {
@@ -70,8 +69,9 @@
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
-  font: 1.4em normal Arial, sans-serif;
-  color: #fff;
+  font: 1.8em normal Arial, sans-serif;
+  color: rgb(68, 170, 253);
+  font-weight: bold;
   opacity: 0;
 }
 
