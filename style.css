@@ -258,7 +258,7 @@ footer {
   .footer{
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
     padding-top: 5Vh;
   }
   .comp{
@@ -337,6 +337,12 @@ footer {
   .comp h2{
     padding-bottom: 2vh;
     padding-top: 2vh;
+  }
+  .logo-part img{
+    padding-bottom:2vh;
+  }
+  .competence{
+    padding-bottom: 1vh;
   }
 
 }
