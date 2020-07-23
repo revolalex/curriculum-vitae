@@ -142,6 +142,7 @@ footer {
   justify-content: space-around;
   margin-right: 1vw;
   margin-left: 1vw;
+  margin-bottom: 2vh;
 }
 
 /* LOGO PART AT TOP OF THE PAGE */
@@ -308,7 +309,7 @@ footer {
     width: 100%;
   }
   .photo {
-    top: 30%;
+    top: 28%;
     width: 35%;
     left: 35%;
   }
