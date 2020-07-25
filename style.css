@@ -13,9 +13,9 @@ main {
 }
 
 .left {
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 50vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 27%;
   order: 1;
   flex-grow: 1.5;
   text-align: center;
@@ -24,7 +24,7 @@ main {
 }
 .central {
   width: 40%;
-  margin-top: 40vh;
+  margin-top: 29%;
   order: 2;
   color: white;
   flex-grow: 1;
@@ -33,65 +33,74 @@ main {
 }
 .right {
   width: 30%;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 50vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 27%;
   order: 3;
   flex-grow: 1.5;
   text-align: center;
   color: white;
 }
 
-/* LEFT PART */
+/*-----------------------------------------------------------------------------------------------
+----------------------- LEFT PART : EXPERIENCE --------------------------------------------------
+------------------------------------------------------------------------------------------------*/
 .exp {
   border-top: dotted 0.1px white;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .left h3,
 .right h3 {
   color: #65c3fd;
-  padding-top: 1.5vh;
+  padding-top: 5%;
 }
 .left p,
 .right p {
-  padding-bottom: 1.5vh;
+  padding-bottom: 5%;
 }
 
-/* CENTRAL PART */
+/*------------------------------------------------------------------------------------------------
+----------------------- CENTRAL PART : PRESENTATION ----------------------------------------------
+------------------------------------------------------------------------------------------------*/
 .inside-central {
-  padding-right: 1.5vw;
-  padding-left: 1.5vw;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .name {
-  padding-top: 15vh;
-  color: #173753;;
+  padding-top: 25%;
+  color: #173753;
 }
 .photo {
   position: absolute;
-  width: 23%;
-  left: 39%;
-  top: 22%;
+  right: 37%;
+  top: 20%;
+  width: 25%;
   clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
 }
 .presentation {
-  padding-top: 1vh;
+  padding-top: 5%;
 }
 .comp h2 {
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
-  margin-top: 2.5vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
   border-top: dotted 2px #0a3855;
   color: #173753;
 }
-.comp h1{
-  padding-top: 8vh;
-  padding-bottom: 2vh;
+.comp h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: #173753;
 }
+.comp {
+  margin-bottom: 10%;
+}
 
-/* RIGHT PART */
+/*------------------------------------------------------------------------------------------------
+----------------------- RIGHT PART : EDUCATION --------------------------------------------------
+------------------------------------------------------------------------------------------------*/
 .desc {
   color: #65c3fd;
 }
@@ -99,46 +108,44 @@ main {
 /* FOOTER */
 footer {
   text-align: center;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #1d70a2;
 }
 .footer {
   display: flex;
   color: white;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
   flex-direction: column;
 }
 
-
-.porto{
+.porto {
   display: flex;
 }
 
-.portofolio{
+.portofolio {
   background-color: #1d70a2;
   color: white;
   flex-direction: row;
   text-align: center;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  margin-right: 10vw;
-  margin-left: 10vw;
-  margin-top: 5vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
-.portofolio a img{
+.portofolio a img {
   margin-right: 3vw;
   margin-left: 3vw;
   margin-top: 3vh;
   margin-bottom: 3vh;
   width: 180px;
 }
-
 
 .footer h3 {
   color: #0a3855;
@@ -151,16 +158,17 @@ footer {
 
 .logo-part a {
   justify-content: space-around;
-  margin-right: 1vw;
-  margin-left: 1vw;
-  margin-bottom: 2vh;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
 
-/* LOGO PART AT TOP OF THE PAGE */
+/*------------------------------------------------------------------------------------------------
+----------------------- LOGO PART AT TOP OF THE PAGE ---------------------------------------------
+------------------------------------------------------------------------------------------------*/
 .logo {
   animation-iteration-count: infinite;
 }
-
 #node {
   position: absolute;
   left: 48%;
@@ -193,7 +201,6 @@ footer {
   animation-name: twinkle-3;
   animation-duration: 3.5s;
 }
-
 #palmes {
   position: absolute;
   right: 40%;
@@ -284,23 +291,25 @@ footer {
   }
 }
 
-/* MEDIA QUERY*/
+/*------------------------------------------------------------------------------------------------
+----------------------- MEDIA QUERY RESPONSIVE --------------------------------------------------
+------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
   main {
     display: flex;
     flex-direction: column;
   }
-  .name{
+  .name {
     padding-top: 5vh;
   }
-  .footer{
+  .footer {
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 1vh;
-    padding-top: 5Vh;
+    padding-top: 5vh;
   }
-  .comp{
+  .comp {
     padding-bottom: 5vh;
   }
   .left {
@@ -320,7 +329,7 @@ footer {
     width: 100%;
   }
   .photo {
-    top: 24%;
+    top: 29%;
     width: 35%;
     left: 33%;
   }
@@ -362,66 +371,75 @@ footer {
     top: 14%;
     right: 15%;
   }
-  #node{
+  #node {
     top: 8%;
     left: 43%;
-
   }
-  #resoudre{
+  #resoudre {
     display: none;
   }
-  #api{
+  #api {
     display: none;
   }
-  .comp h2{
+  .comp h2 {
     padding-bottom: 2vh;
     padding-top: 2vh;
   }
-  .logo-part img{
-    padding-bottom:2vh;
+  .logo-part img {
+    padding-bottom: 2vh;
   }
-  .competence{
+  .competence {
     padding-bottom: 1vh;
   }
-
 }
 
-@media screen and (min-width: 801px) and (max-width: 1200) {
+@media screen and (min-width: 601px) and (max-width: 800px) {
   .photo {
-    position: absolute;
     width: 23%;
     left: 39%;
     top: 22%;
-    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
+  }
+  .left {
+    padding-top: 50vh;
+  }
+  .right {
+    padding-top: 50vh;
+  }
+  .central {
+    margin-top: 35vh;
   }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1400) {
+@media screen and (min-width: 801px) and (max-width: 1000px) {
   .photo {
-    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
-    position: absolute;
     width: 23%;
     left: 39%;
-    top: 20%;
+    top: 22%;
+  }
+  .left {
+    padding-top: 45%;
+  }
+  .right {
+    padding-top: 45%;
+  }
+  .central {
+    margin-top: 35%;
   }
 }
 
-@media screen and (min-width: 1401px) and (max-width: 1600) {
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
   .photo {
-    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
-    position: absolute;
-    width: 20%;
-    left: 40%;
-    top: 18%;
+    width: 23%;
+    left: 39%;
+    top: 25%;
   }
-}
-
-@media screen and (min-width: 1601px) {
-  .photo {
-    clip-path: polygon(0 16%, 51% 0, 100% 17%, 100% 86%, 48% 100%, 0 86%);
-    position: absolute;
-    width: 20%;
-    left: 40%;
-    top: 18%;
+  .left {
+    padding-top: 45%;
+  }
+  .right {
+    padding-top: 45%;
+  }
+  .central {
+    margin-top: 35%;
   }
 }
