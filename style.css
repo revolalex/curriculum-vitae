@@ -23,7 +23,7 @@ main {
 }
 .central {
   width: 40%;
-  margin-top: 29%; 
+  margin-top: 29%;
   order: 2;
   color: white;
   flex-grow: 1;
@@ -303,10 +303,10 @@ footer {
     padding-top: 5vh;
   }
   .footer {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 1vh;
-    padding-top: 5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
   .comp {
     padding-bottom: 5vh;
@@ -543,7 +543,7 @@ footer {
     margin-top: 30%;
   }
 }
-@media screen and (min-width: 2801px)  {
+@media screen and (min-width: 2801px) {
   .photo {
     width: 23%;
     left: 39%;
@@ -560,16 +560,95 @@ footer {
   }
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+
+
+
+
+/*------------------------------------------------------------------------------------------------
+----------------------- IPHONE, IPAD LANDSCAPE ---------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+
+/* Landscape  Iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .photo {
+    width: 23%;
+    left: 39%;
+    top: 33%;
+  }
+  .left {
+    padding-top: 35%;
+  }
+  .right {
+    padding-top: 35%;
+  }
+  .central {
+    margin-top: 30%;
+  }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .photo {
+    width: 23%;
+    left: 39%;
+    top: 28%;
+  }
+  .left {
+    padding-top: 35%;
+  }
+  .right {
+    padding-top: 35%;
+  }
+  .central {
+    margin-top: 30%;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .photo {
+    width: 23%;
+    left: 39%;
+    top: 28%;
+  }
+  .left {
+    padding-top: 35%;
+  }
+  .right {
+    padding-top: 35%;
+  }
+  .central {
+    margin-top: 30%;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .photo {
+    width: 23%;
+    left: 39%;
+    top: 28%;
+  }
+  .left {
+    padding-top: 45%;
+  }
+  .right {
+    padding-top: 10%;
+  }
+  .central {
+    margin-top: 10%;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .photo {
       width: 23%;
       left: 39%;
-      top: 33%;
+      top: 26%;
     }
     .left {
       padding-top: 35%;
@@ -578,7 +657,6 @@ footer {
       padding-top: 35%;
     }
     .central {
-      margin-top: 30%;
+      margin-top: 35%;
     }
-
-}
+} */
