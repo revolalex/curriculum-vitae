@@ -16,18 +16,21 @@
     padding-bottom: 5vh;
   }
   .left {
-    padding-top: 50vh;
+    order: 2;
+    padding-top: 10vh;
     width: 100%;
     padding-bottom: 1vh;
   }
   .central {
+    order: 1;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 1vh;
-    margin-top: 5vh;
+    margin-top: 40vh;
   }
   .right {
+    order: 3;
     padding-top: 5vh;
     width: 100%;
   }
@@ -59,12 +62,12 @@
     top: 30%;
   }
   #mobile {
-    top: 40%;
-    right: 16%;
+    top: 4%;
+    right: 25%;
   }
   #bootstrap {
-    top: 40%;
-    left: 20%;
+    top: 4%;
+    left: 25%;
   }
   #html {
     top: 14%;
@@ -204,10 +207,10 @@
     top: 25%;
   }
   .left {
-    padding-top: 45%;
+    padding-top: 40%;
   }
   .right {
-    padding-top: 45%;
+    padding-top: 40%;
   }
   .central {
     margin-top: 35%;
@@ -264,11 +267,147 @@
   }
 }
 
-/*------------------------------------------------------------------------------------------------
+/* ------------------------------------------------------------------------------------------------
   ----------------------- IPHONE, IPAD LANDSCAPE ---------------------------------------------------
   ------------------------------------------------------------------------------------------------*/
 
-/* Landscape Iphone 11 */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .photo {
+    width: 30vw;
+    left: 36vw;
+    top: 30vh;
+  }
+  .left {
+    padding-top: 10vh;
+  }
+  .right {
+    padding-top: 10vh;
+  }
+  .central {
+    margin-top: 65vh;
+  }
+  .name {
+    padding-top: 25vh;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .photo {
+    width: 40vw;
+    left: 31vw;
+    top: 30vh;
+  }
+  .left {
+    padding-top: 10vh;
+  }
+  .right {
+    padding-top: 10vh;
+  }
+  .central {
+    margin-top: 40vh;
+  }
+  .name {
+    padding-top: 20vh;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .photo {
+    width: 23vw;
+    left: 38vw;
+    top: 30vh;
+  }
+  .left {
+    padding-top: 65vh;
+  }
+  .right {
+    padding-top: 65vh;
+  }
+  .central {
+    margin-top: 55vh;
+  }
+  .name {
+    padding-top: 20vh;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .name {
+    padding-top: 10vh;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .photo {
+    width: 23vw;
+    left: 39vw;
+    top: 27vh;
+  }
+  .left {
+    padding-top: 70vh;
+  }
+  .right {
+    padding-top: 70vh;
+  }
+  .central {
+    margin-top: 50vh;
+  }
+  .name {
+    padding-top: 20vh;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .photo {
+    width: 25vh;
+    left: 16vh;
+    top: 25vh;
+  }
+  .left {
+    padding-top: 10vh;
+  }
+  .right {
+    padding-top: 5vh;
+  }
+  .central {
+    margin-top: 40vh;
+  }
+  .name {
+    padding-top: 12vh;
+  }
+}
+
+/* ------------------- Iphone 10 ------------------ */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .photo {
+    width: 25vw;
+    left: 38vw;
+    top: 33vh;
+  }
+  .left {
+    padding-top: 70vh;
+  }
+  .right {
+    padding-top: 70vh;
+  }
+  .central {
+    margin-top: 60vh;
+  }
+  .name {
+    padding-top: 30vh;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .name {
+    padding-top: 15vh;
+  }
+}
+
+/* ------------------- Iphone 11 ------------------ */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
   .photo {
     width: 23%;
@@ -285,74 +424,9 @@
     margin-top: 30%;
   }
 }
-
-/* Landscape  Iphone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .photo {
-    width: 23%;
-    left: 39%;
-    top: 33%;
-  }
-  .left {
-    padding-top: 35%;
-  }
-  .right {
-    padding-top: 35%;
-  }
-  .central {
-    margin-top: 30%;
-  }
-}
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .photo {
-    width: 23%;
-    left: 39%;
-    top: 28%;
-  }
-  .left {
-    padding-top: 35%;
-  }
-  .right {
-    padding-top: 35%;
-  }
-  .central {
-    margin-top: 30%;
-  }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .photo {
-    width: 23%;
-    left: 39%;
-    top: 28%;
-  }
-  .left {
-    padding-top: 35%;
-  }
-  .right {
-    padding-top: 35%;
-  }
-  .central {
-    margin-top: 30%;
-  }
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .photo {
-    width: 23%;
-    left: 39%;
-    top: 28%;
-  }
-  .left {
-    padding-top: 45%;
-  }
-  .right {
-    padding-top: 10%;
-  }
-  .central {
-    margin-top: 10%;
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  .name {
+    padding-top: 10vh;
   }
 }
