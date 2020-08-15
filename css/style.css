@@ -104,23 +104,9 @@ main {
   color: #65c3fd;
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #1d70a2;
-}
-.footer {
-  display: flex;
-  color: white;
-  padding-top: 5%;
-  padding-bottom: 1%;
-  padding-left: 10%;
-  padding-right: 10%;
-  flex-direction: column;
-}
-
+/*------------------------------------------------------------------------------------------------
+------------------------ PORTOFOLI0 --------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
 .porto {
   display: flex;
 }
@@ -146,11 +132,31 @@ footer {
   width: 180px;
 }
 
+/*------------------------------------------------------------------------------------------------
+------------------------ FOOTER ------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #1d70a2;
+}
+.footer {
+  display: flex;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: column;
+}
+
 .footer h3 {
   color: #0a3855;
 }
 
 .contact {
+  padding-top: 2%;
   text-align: center;
   color: #0a3855;
 }
