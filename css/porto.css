@@ -1,0 +1,129 @@
+.rea {
+  color: #0a3855;
+  text-align: center;
+  background-color: #1d70a2;
+  margin-bottom: 5%;
+}
+.container {
+  padding: 5% 5% 5% 5%;
+  background: #1d70a2;
+  padding-bottom: 5vh;
+  margin: 5% 10% 0% 10%;
+}
+
+.container:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+/* Inside the box */
+.box {
+  width: 96%;
+  margin: 2%;
+  padding-bottom: 96%;
+  height: 0;
+  position: relative;
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: #173753;
+}
+
+.box:after {
+  content: "";
+  position: relative;
+  background-color: #000;
+  opacity: 0;
+  z-index: 55;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.box:hover::after {
+  background-color: #000;
+  opacity: 0.4;
+}
+
+.container .box .caption {
+  position: absolute;
+  z-index: 60;
+  width: 90%;
+  margin-left: 5%;
+  top: 50%;
+  -webkit-transform: scale(3);
+  -moz-transform: scale(3);
+  -ms-transform: scale(3);
+  -o-transform: scale(3);
+  transform: scale(3);
+  text-align: center;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  font: 1.8em normal Arial, sans-serif;
+  color: rgb(68, 170, 253);
+  font-weight: bold;
+  opacity: 0;
+}
+
+.box:hover .caption {
+  -webkit-transform: scale(1) translate(0%, -50%);
+  -moz-transform: scale(1) translate(0%, -50%);
+  -ms-transform: scale(1) translate(0%, -50%);
+  -o-transform: scale(1) translate(0%, -50%);
+  transform: scale(1) translate(0%, -50%);
+  opacity: 1;
+}
+
+.box img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.box:hover img {
+  height: 120%;
+}
+
+/* media changes, changing number of columns */
+@media all and (min-width: 350px) {
+  .container .box {
+    width: 48%;
+    margin: 1%;
+    padding-bottom: 48%;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .container .box {
+    width: 31.3333%;
+    padding-bottom: 30%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container .box {
+    width: 31%;
+    padding-bottom: 30%;
+  }
+}
