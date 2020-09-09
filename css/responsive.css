@@ -99,6 +99,23 @@
   }
 }
 
+/* @media screen and (min-width: 510px) and (max-width: 579px) {
+  .photo {
+    width: 33%;
+    left: 33%;
+    top: 25%;
+  }
+} */
+
+
+@media screen and (min-width: 580px) and (max-width: 600px) {
+  .photo {
+    width: 40%;
+    left: 30%;
+    top: 24%;
+  }
+}
+
 @media screen and (min-width: 601px) and (max-width: 700px) {
   .photo {
     width: 23%;
@@ -136,7 +153,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 22%;
+    top: 20.5%;
   }
   .left {
     padding-top: 45%;
@@ -153,7 +170,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 24%;
+    top: 22%;
   }
   .left {
     padding-top: 45%;

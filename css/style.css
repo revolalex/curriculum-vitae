@@ -3,9 +3,12 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   padding: 0em;
+  
 }
 body {
   background-color: #173753;
+  overflow-x: hidden;
+  /* width: 100vw; */
 }
 main {
   display: flex;
