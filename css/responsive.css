@@ -99,14 +99,16 @@
   }
 }
 
-/* @media screen and (min-width: 510px) and (max-width: 579px) {
+@media screen and (min-width: 210px) and (max-width: 579px) {
   .photo {
-    width: 33%;
-    left: 33%;
-    top: 25%;
+    width: 40%;
+    left: 30%;
+    top: 24%;
   }
-} */
-
+  .central{
+    padding-top: 4vh;
+  }
+}
 
 @media screen and (min-width: 580px) and (max-width: 600px) {
   .photo {
@@ -330,7 +332,7 @@
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .photo {
     width: 23vw;
     left: 38vw;
@@ -348,7 +350,27 @@
   .name {
     padding-top: 20vh;
   }
+} */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo {
+    width: 45vw;
+    left: 27.5vw;
+    top: 28vh;
+  }
+  .left {
+    padding-top: 65vh;
+  }
+  .right {
+    padding-top: 65vh;
+  }
+  .central {
+    margin-top: 45vh;
+  }
+  .name {
+    padding-top: 20vh;
+  }
 }
+
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .name {
@@ -398,6 +420,7 @@
 }
 
 /* ------------------- Iphone 10 ------------------ */
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .photo {
     width: 25vw;
