@@ -99,13 +99,16 @@
   }
 }
 
-/* @media screen and (min-width: 510px) and (max-width: 579px) {
+@media screen and (min-width: 210px) and (max-width: 579px) {
   .photo {
-    width: 33%;
-    left: 33%;
-    top: 25%;
+    width: 40%;
+    left: 30%;
+    top: 24%;
   }
-} */
+  .central{
+    padding-top: 4vh;
+  }
+}
 
 @media screen and (min-width: 580px) and (max-width: 600px) {
   .photo {
