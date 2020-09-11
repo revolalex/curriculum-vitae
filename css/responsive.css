@@ -99,7 +99,7 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 579px) {
+/* @media screen and (min-width: 501px) and (max-width: 579px) {
   .photo {
     width: 40%;
     left: 30%;
@@ -116,13 +116,13 @@
     left: 30%;
     top: 24%;
   }
-}
+} */
 
 @media screen and (min-width: 601px) and (max-width: 700px) {
   .photo {
     width: 23%;
     left: 39%;
-    top: 23%;
+    top: 25%;
   }
   .left {
     padding-top: 60%;
@@ -138,7 +138,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 26%;
+    top: 29%;
   }
   .left {
     padding-top: 60%;
@@ -155,7 +155,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 20.5%;
+    top: 22%;
   }
   .left {
     padding-top: 45%;
@@ -172,7 +172,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 22%;
+    top: 25%;
   }
   .left {
     padding-top: 45%;
@@ -189,7 +189,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 25%;
+    top: 27%;
   }
   .left {
     padding-top: 45%;
@@ -206,7 +206,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 25%;
+    top: 28%;
   }
   .left {
     padding-top: 45%;
@@ -223,7 +223,7 @@
   .photo {
     width: 23%;
     left: 39%;
-    top: 25%;
+    top: 27%;
   }
   .left {
     padding-top: 40%;
