@@ -5,11 +5,14 @@
   padding: 0em;
   
 }
-body {
+html, body {
   background-color: #173753;
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
 }
+
+
+
 main {
   display: flex;
 }
