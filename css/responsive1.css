@@ -4,7 +4,7 @@
     flex-direction: column;
   }
   .name {
-    padding-top: 40%;
+    padding-top: 5vh;
   }
   .footer {
     padding-left: 10%;
@@ -27,7 +27,7 @@
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 1vh;
-    margin-top: 43vh;
+    margin-top: 40vh;
   }
   .right {
     order: 3;
@@ -35,9 +35,9 @@
     width: 100%;
   }
   .photo {
-    top: 26%;
-    width: 40%;
-    left: 30%;
+    top: 29%;
+    width: 35%;
+    left: 33%;
   }
   #github {
     top: 5%;
